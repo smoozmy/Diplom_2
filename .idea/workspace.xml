@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f42a102-6867-4151-a8c3-f241eb78f013" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/test_user_create.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9f42a102-6867-4151-a8c3-f241eb78f013" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,7 +31,7 @@
     "git-widget-placeholder": "develop2"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python tests.Python tests for test_user_login.TestUserLogin">
     <configuration name="Python tests for test_user_create.TestUserCreate" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Diplom_2" />
       <option name="ENV_FILES" value="" />
@@ -50,8 +47,24 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for test_user_login.TestUserLogin" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_2" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_user_login.TestUserLogin&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_user_login.TestUserLogin" />
         <item itemvalue="Python tests.Python tests for test_user_create.TestUserCreate" />
       </list>
     </recent_temporary>
