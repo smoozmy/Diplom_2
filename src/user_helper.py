@@ -1,8 +1,8 @@
 import requests
 import random
 import string
+from src.config import BASE_URL
 
-BASE_URL = 'https://stellarburgers.nomoreparties.site'
 
 def random_email():
     return f"user_{''.join(random.choices(string.ascii_lowercase, k=8))}@example.com"
