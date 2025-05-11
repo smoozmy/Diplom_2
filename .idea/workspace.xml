@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f42a102-6867-4151-a8c3-f241eb78f013" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/test_user_update.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Diplom_2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Diplom_2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_order_create.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_user_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_user_login.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +31,7 @@
   "keyToString": {
     "Python tests.Python tests for test_user_create.TestUserCreate.executor": "Run",
     "Python tests.Python tests for test_user_login.TestUserLogin.executor": "Run",
+    "Python tests.Python tests for tests.test_order_create.TestOrderCreate.executor": "Run",
     "Python tests.Python tests for tests.test_user_create.TestUserCreate.executor": "Run",
     "Python tests.Python tests for tests.test_user_login.TestUserLogin.executor": "Run",
     "Python tests.Python tests for tests.test_user_update.TestUserUpdate.executor": "Run",
@@ -41,34 +39,19 @@
     "git-widget-placeholder": "develop2"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.Python tests for tests.test_user_update.TestUserUpdate">
-    <configuration name="Python tests for test_user_create.TestUserCreate" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for tests.test_user_orders.TestUserOrders">
+    <configuration name="Python tests for tests.test_order_create.TestOrderCreate" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Diplom_2" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_user_create.TestUserCreate&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_user_login.TestUserLogin" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Diplom_2" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_user_login.TestUserLogin&quot;" />
+      <option name="_new_target" value="&quot;tests.test_order_create.TestOrderCreate&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -102,6 +85,21 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for tests.test_user_orders.TestUserOrders" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_2" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_user_orders.TestUserOrders&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests for tests.test_user_update.TestUserUpdate" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Diplom_2" />
       <option name="ENV_FILES" value="" />
@@ -119,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for tests.test_user_orders.TestUserOrders" />
+        <item itemvalue="Python tests.Python tests for tests.test_order_create.TestOrderCreate" />
         <item itemvalue="Python tests.Python tests for tests.test_user_update.TestUserUpdate" />
         <item itemvalue="Python tests.Python tests for tests.test_user_create.TestUserCreate" />
         <item itemvalue="Python tests.Python tests for tests.test_user_login.TestUserLogin" />
-        <item itemvalue="Python tests.Python tests for test_user_login.TestUserLogin" />
-        <item itemvalue="Python tests.Python tests for test_user_create.TestUserCreate" />
       </list>
     </recent_temporary>
   </component>
