@@ -1,5 +1,4 @@
 import requests
-import pytest
 import allure
 from src.config import BASE_URL
 
@@ -31,23 +30,25 @@ class TestUserUpdate:
             assert response.status_code == 401
             assert response.json()['message'] == 'You should be authorised'
 
-
-    @allure.title('Изменение любого поля авторизованного пользователя')
-    @pytest.mark.parametrize('field,value', [
-        ('password', 'newpassword123'),
-        ('name', 'Super Burger')
-    ])
-    def test_update_each_field_with_auth(self, auth_user, field, value):
+    @allure.title('Изменение пароля авторизованного пользователя')
+    def test_update_user_password(self, auth_user):
         headers = auth_user['headers']
-        update_data = {field: value}
+        new_password = 'newpassword123'
 
-        with allure.step(f'Обновляем поле {field}'):
-            response = requests.patch(f'{BASE_URL}/api/auth/user', headers=headers, json=update_data)
+        with allure.step('Обновляем пароль'):
+            response = requests.patch(f'{BASE_URL}/api/auth/user', headers=headers, json={'password': new_password})
 
-        with allure.step('Проверяем статус'):
+        with allure.step('Проверяем, что пароль успешно обновился'):
             assert response.status_code == 200
 
-        if field != 'password':
-            with allure.step('Проверяем, что значение поля обновилось'):
-                assert response.json()['user'][field] == value
+    @allure.title('Изменение имени повторно авторизованного пользователя')
+    def test_update_user_name_again(self, auth_user):
+        headers = auth_user['headers']
+        new_name = 'Super Burger'
 
+        with allure.step('Обновляем имя ещё раз'):
+            response = requests.patch(f'{BASE_URL}/api/auth/user', headers=headers, json={'name': new_name})
+
+        with allure.step('Проверяем обновлённое имя'):
+            assert response.status_code == 200
+            assert response.json()['user']['name'] == new_name
