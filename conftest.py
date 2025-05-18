@@ -1,5 +1,6 @@
 import pytest
-from src.user_helper import create_user, delete_user, random_email
+from src.user_helper import random_email
+from src.user_api import create_user, delete_user
 
 @pytest.fixture
 def user_data():

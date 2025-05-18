@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f42a102-6867-4151-a8c3-f241eb78f013" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/test_order_create.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +33,7 @@
     "Python tests.Python tests for tests.test_order_create.TestOrderCreate.executor": "Run",
     "Python tests.Python tests for tests.test_user_create.TestUserCreate.executor": "Run",
     "Python tests.Python tests for tests.test_user_login.TestUserLogin.executor": "Run",
+    "Python tests.Python tests for tests.test_user_orders.TestUserOrders.executor": "Run",
     "Python tests.Python tests for tests.test_user_update.TestUserUpdate.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "develop2"
